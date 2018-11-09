@@ -11,6 +11,12 @@ public class App
         System.out.println( "Hello World! " + add(3, 5));
     }
 
+    /**
+     * Add two integer
+     * @param a first integer
+     * @param b second integer
+     * @return result of addition
+     */
     public static int add(int a, int b) {
         return a + b;
     }
